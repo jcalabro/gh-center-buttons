@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Center GitHub Buttons",
+    "version": "1.0",
+    "description": "Center all GitHub icons on your repository pages.",
+    "content_scripts": [
+        {
+            "matches": ["*://*.github.com/*"],
+            "js": ["center.js"]
+        }
+    ]
+}
